@@ -2,8 +2,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
-    password: root1
-    url: jdbc:mysql://127.0.0.1:3306/eleme?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    password: root
+    url: jdbc:mysql://127.0.0.1:33061/eleme?characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
   jpa:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
