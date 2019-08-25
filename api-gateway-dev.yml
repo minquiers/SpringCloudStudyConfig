@@ -1,6 +1,6 @@
 zuul:
   routes:
-    product: /apiGateway/**
+    product: /api/**
   #配出某些路由
   ignored-patterns:
     - /product/**
